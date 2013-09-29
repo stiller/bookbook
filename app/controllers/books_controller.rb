@@ -5,7 +5,7 @@ class BooksController < ApplicationController
   # GET /books.json
   def index
     @books = Book.paginate(:page => params[:page], :per_page => 5)
-    fresh_when last_modified: @books.maximum(:updated_at)
+    fresh_when last_modified: @books.maximum(:updated_at), public: true
   end
 
   # GET /books/1
