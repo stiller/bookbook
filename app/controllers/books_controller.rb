@@ -4,6 +4,9 @@ class BooksController < ApplicationController
   # GET /books
   # GET /books.json
   def index
+    BookFetcher.new.get['items'].each do |book_hash|
+      Book.find_or_create_from_hash(book_hash)
+    end
     @books = Book.all
   end
 
