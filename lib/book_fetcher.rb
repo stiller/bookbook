@@ -9,7 +9,7 @@ class BookFetcher
   end
 
   def get
-    response = @http.request(Net::HTTP::Get.new("/books/v1/volumes\?q\='ruby+on+rails'"))
+    response = @http.request(Net::HTTP::Get.new("/books/v1/volumes\?q\='ruby+on+rails'&maxResults=40"))
     JSON.parse response.body
   end
 end

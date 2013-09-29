@@ -8,7 +8,7 @@ class Book < ActiveRecord::Base
     hash['google_id'] = book_hash['id']
     info = book_hash['volumeInfo']
     hash['title'] = info['title']
-    hash['authors'] = info['authors'].join(', ')
+    hash['authors'] = info['authors'].join(', ') if info['authors']
     hash['thumbnail_url'] = book_hash['volumeInfo']['imageLinks']['smallThumbnail']
     create(hash)
   end
