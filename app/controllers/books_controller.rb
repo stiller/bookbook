@@ -7,7 +7,7 @@ class BooksController < ApplicationController
     BookFetcher.new.get['items'].each do |book_hash|
       Book.find_or_create_from_hash(book_hash)
     end
-    @books = Book.all
+    @books = Book.paginate(:page => params[:page], :per_page => 5)
   end
 
   # GET /books/1
