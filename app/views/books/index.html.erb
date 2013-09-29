@@ -16,6 +16,7 @@
   </thead>
   <tbody>
     <% @books.each do |book| %>
+      <% cache(book) do %>
       <tr>
         <td><%= link_to book.id, book_path(book) %></td>
         <td><%= book.google_id %></td>
@@ -33,6 +34,7 @@
                       :class => 'btn btn-mini btn-danger' %>
         </td>
       </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
