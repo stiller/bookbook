@@ -26,6 +26,8 @@ gem 'twitter-bootstrap-rails'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'whenever', require: false
+gem 'memcachier'
+gem 'dalli'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
