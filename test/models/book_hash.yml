@@ -1,0 +1,70 @@
+---
+kind: books#volume
+id: BaWayIR0CvkC
+etag: yXhGievnDG4
+selfLink: https://www.googleapis.com/books/v1/volumes/BaWayIR0CvkC
+volumeInfo:
+  title: Beginning Ruby on Rails
+  authors:
+  - Steve Holzner, Ph.D.
+  publisher: Wrox
+  publishedDate: '2006-11-29'
+  description: Ruby on Rails is the revolutionary online programming tool that makes
+    creating functional e-commerce web sites faster and easier than ever. With the
+    intuitive, straightforward nature of Ruby and the development platform provided
+    by Rails, you can put together full-fledged web applications quickly, even if
+    you're new to web programming. You will find a thorough introduction to both Ruby
+    and Rails in this book. You'll get the easy instructions for acquiring and installing
+    both; understand the nature of conditionals, loops, methods, and blocks; and become
+    familiar with Ruby's classes and objects. You'll learn to build Rails applications,
+    connect to databases, perform necessary testing, and put the whole thing together
+    to create real-world applications such as shopping carts and online catalogs--apps
+    you can actually use right away. What you will learn from this book * How to install
+    and use Ruby and Rails * Object-oriented programming with Ruby * Rails fundamentals
+    and how to create basic online applications * How to work with HTML controls,
+    use models in Rails applications, and work with sessions * Details on working
+    with databases and creating, editing, and deleting database records * Methods
+    for handling cookies and filters and for caching pages * How to connect Rails
+    with Ajax Who this book is for This book is for anyone who wants to develop online
+    applications using Ruby and Rails. A basic understanding of programming is helpful;
+    some knowledge of HTML is necessary. Wrox Beginning guides are crafted to make
+    learning programming languages and technologies easier than you think, providing
+    a structured, tutorial format that will guide you through all the techniques involved.
+  industryIdentifiers:
+  - type: ISBN_10
+    identifier: 0470069155
+  - type: ISBN_13
+    identifier: '9780470069158'
+  pageCount: 380
+  printType: BOOK
+  categories:
+  - Computers
+  averageRating: 3.0
+  ratingsCount: 5
+  contentVersion: 2.3.2.0.preview.1
+  imageLinks:
+    smallThumbnail: http://bks9.books.google.nl/books?id=BaWayIR0CvkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api
+    thumbnail: http://bks9.books.google.nl/books?id=BaWayIR0CvkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  language: en
+  previewLink: http://books.google.nl/books?id=BaWayIR0CvkC&printsec=frontcover&dq='ruby+on+rails'&hl=&cd=1&source=gbs_api
+  infoLink: http://books.google.nl/books?id=BaWayIR0CvkC&dq='ruby+on+rails'&hl=&source=gbs_api
+  canonicalVolumeLink: http://books.google.nl/books/about/Beginning_Ruby_on_Rails.html?hl=&id=BaWayIR0CvkC
+saleInfo:
+  country: NL
+  saleability: NOT_FOR_SALE
+  isEbook: false
+accessInfo:
+  country: NL
+  viewability: PARTIAL
+  embeddable: true
+  publicDomain: false
+  textToSpeechPermission: ALLOWED
+  epub:
+    isAvailable: false
+  pdf:
+    isAvailable: false
+  webReaderLink: http://books.google.nl/books/reader?id=BaWayIR0CvkC&hl=&printsec=frontcover&output=reader&source=gbs_api
+  accessViewStatus: SAMPLE
+searchInfo:
+  textSnippet: You will find a thorough introduction to both Ruby and Rails in this
+    book.
